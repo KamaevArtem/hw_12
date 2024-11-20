@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Author author1 = new Author("John", "Doe");
-        Author author2 = new Author("Jane", "Smith");
+        Author author1 = new Author("J.R.R. Tolkien", "Tolkien");
+        Author author2 = new Author("Stephen King", "King");
 
         Book book1 = new Book("The Hobbit", author1, 1937);
         Book book2 = new Book("The Lord of the Rings", author2, 1954);
