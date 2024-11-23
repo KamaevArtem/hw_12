@@ -8,9 +8,9 @@ public class Main {
 
         book1.setPublicationYear(1937);
         book2.setPublicationYear(1954);
+        System.out.println("Книга 1: "+ book1.toString());
+        System.out.println("Книга 2: "+ book2.toString());
 
-        System.out.println("Книга 1: " + book1.getTitle() + " автор " + author1.getFirstName() + " " + author1.getLastName() + ", год издания " + book1.getPublicationYear());
-        System.out.println("Книга 2: " + book2.getTitle() + " автор " + author2.getFirstName() + " " + author2.getLastName() + ", год издания " + book2.getPublicationYear());
 
     }
 }
